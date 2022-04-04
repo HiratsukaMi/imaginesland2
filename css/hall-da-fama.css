@@ -1,0 +1,167 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Works on Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #dbbaf3 #f3f1f1;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #f3f1f1;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #dbbaf3;
+    border-radius: 20px;
+    border: 3px solid #f3f1f1;
+}
+
+body {
+    font-family: 'Oregano', cursive;
+    text-align: center;
+    background-color: #fef0a9;
+}
+
+.bg {
+    background-image: url("https://cdn.pixabay.com/photo/2017/08/02/18/25/architecture-2572762_960_720.jpg");
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0; 
+    left: 0;
+    opacity: 0.8;
+    z-index: -10;
+}
+
+.fixed-top {
+    right: 15px;
+    left: 15px;
+}
+
+.imagem-titulo {
+    max-height: 365px;
+    margin-top: 1em;
+}
+
+.imagem-sobre {
+    height: 100px;
+    margin: 15px 0px;
+}
+
+.card-info h4 {
+    text-align: justify;
+    padding: 0px 20px;
+}
+
+.hall-da-fama {
+    color: #18194F;
+    padding: 10em 20em;
+}
+
+.hall-da-fama {
+    background-color: rgba(252,161,255,0.7);
+}
+
+.hall-da-fama .btn-primary {
+    color: #18194F;
+    background-color: #fca1ff;
+    border-color: #fca1ff;
+}
+
+.hall-da-fama .btn-primary:hover {
+    color: #fca1ff;
+    background-color: #18194F;
+    border-color: #18194F;
+}
+
+.footer {
+    background-color: #F3F1F1;
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+
+@media (max-width: 399.98px) {
+    body {
+        font-size: 12px;
+    }
+    .imagem-sobre {
+        height: 50px;
+    }
+    .card-info h4 {
+        font-size: 1.3em;
+    }
+    .hall-da-fama {
+        padding: 1em;
+    }
+    .imagem-titulo {
+        max-height: 130px;
+        margin-top: 1em;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 575.98px){
+    body {
+        font-size: 14px;
+    }
+    .imagem-sobre {
+        height: 75px;
+    }
+    .card-info h4 {
+        font-size: 1.3em;
+    }
+    .hall-da-fama {
+        padding: 1em;
+    }
+    .imagem-titulo {
+        max-height: 170px;
+        margin-top: 1em;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    body {
+        font-size: 14px;
+    }
+    .hall-da-fama {
+        padding: 1em;
+    }
+    .imagem-titulo {
+        max-height: 170px;
+        margin-top: 1em;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    body {
+        font-size: 14px;
+    }
+    .hall-da-fama {
+        padding: 1em;
+    }
+    .imagem-titulo {
+        max-height: 275px;
+        margin-top: 1em;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    body {
+        font-size: 14px;
+    }
+    .imagem-titulo {
+        max-height: 305px;
+        margin-top: 1em;
+    }
+}
