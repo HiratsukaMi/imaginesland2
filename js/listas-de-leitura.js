@@ -85,18 +85,12 @@ var listaDeLeitura = [{ id: "1", capa: "https://pbs.twimg.com/media/ESLeoC0XsAAq
     { id: "85", capa: "https://www.cafemaisgeek.com/wp-content/uploads/2020/03/kamisama-kiss-1.jpg", nome: "Kamisama Hajimemashita", link: "https://www.spiritfanfiction.com/listas/kamisama-hajimemashita-8238453", },
     { id: "86", capa: "https://www.themoviedb.org/t/p/original/dkq4GO8Ubcu6ketU6MZNmc4Eksi.jpg", nome: "Beelzebub", link: "https://www.spiritfanfiction.com/listas/beelzebub-8246400", },
     { id: "87", capa: "https://www.grapheine.com/wp-content/uploads/2019/11/jp-cover.jpg", nome: "Jurassic Park", link: "https://www.spiritfanfiction.com/listas/jurassic-park-8252997", },
-    {
-        id: "88",
-        capa: "https://wallpaperaccess.com/full/1748500.png",
-        nome: "Himouto! Umaru-chan",
-        link: "https://www.spiritfanfiction.com/listas/himouto-umaru-chan-8255763",
-    },
-    {
-        id: "89",
-        capa: "https://media.seudinheiro.com/uploads/2022/01/harry-potter.jpg",
-        nome: "Harry Potter",
-        link: "https://www.spiritfanfiction.com/listas/harry-potter-8257293",
-    },
+    { id: "88", capa: "https://wallpaperaccess.com/full/1748500.png", nome: "Himouto! Umaru-chan", link: "https://www.spiritfanfiction.com/listas/himouto-umaru-chan-8255763", },
+    { id: "89", capa: "https://media.seudinheiro.com/uploads/2022/01/harry-potter.jpg", nome: "Harry Potter", link: "https://www.spiritfanfiction.com/listas/harry-potter-8257293", },
+    { id: "90", capa: "https://sucodemanga.com.br/wp-content/uploads/2016/01/prince-of-stride-thumb.jpg", nome: "Prince of Stride: Alternative", link: "https://www.spiritfanfiction.com/listas/prince-of-stride-alternative-8269397", },
+    { id: "91", capa: "https://d17lbu6bbzbdc8.cloudfront.net/wp-content/uploads/2021/02/28084206/Solo-Leveling-Season-2-Chapter-142-Spoilers-and-Recap-1.jpg", nome: "Solo Leveling", link: "https://www.spiritfanfiction.com/listas/solo-leveling-8269399", },
+    { id: "92", capa: "https://topico42.com.br/wp-content/uploads/2019/01/Voltron-1024x576.jpg", nome: "Voltron", link: "https://www.spiritfanfiction.com/listas/voltron-8269405", },
+    { id: "93", capa: "https://s.aficionados.com.br/imagens/bleach-guia-de-temporadas-arcos-e-episodios_t.jpg", nome: "Bleach", link: "https://www.spiritfanfiction.com/listas/bleach-8274147", },
 ]
 
 var elementoExibirListasDeLeitura = document.getElementById("exibirListasDeLeitura");

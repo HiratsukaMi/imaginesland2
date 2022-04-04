@@ -153,9 +153,6 @@ header {
   body {
     font-size: 12px;
   }
-  .nav-link {
-    font-size: xxx-large;
-  }
   #exibirAdms,
   #exibirMembros,
   #exibirListasDeLeitura {
@@ -164,13 +161,21 @@ header {
     justify-content: space-around;
     margin-top: 20px;
   }
-  .adms {
-    padding: 6em 0em 40em 0em;
+  .adms,
+  .membros,
+  .listas-de-leitura {
+    padding: 6em 0em 6em 0em;
+  }
+  .sobre h4 {
+    font-size: 1.5em;
   }
   .img-adms,
   .img-membros,
   .img-listas-de-leitura {
     width: 100px;
+  }
+  .imagem-sobre {
+    height: 50px;
   }
   .imagem-titulo {
     max-height: 130px;
@@ -190,8 +195,16 @@ header {
     justify-content: space-around;
     margin-top: 20px;
   }
-  .adms {
-    padding: 6em 0em 40em 0em;
+  .adms,
+  .membros,
+  .listas-de-leitura {
+    padding: 6em 0em 6em 0em;
+  }
+  .sobre h4 {
+    font-size: 1.5em;
+  }
+  .imagem-sobre {
+    height: 75px;
   }
   .img-adms {
     width: 100px;
