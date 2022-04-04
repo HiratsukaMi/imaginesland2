@@ -112,7 +112,8 @@ header {
 }
 
 .membros,
-.listas-de-leitura {
+.listas-de-leitura,
+.hall-da-fama {
   color: #18194F;
   padding: 11em;
 }
@@ -123,6 +124,22 @@ header {
 
 .listas-de-leitura {
   background-color: rgba(161,255,252,0.7);
+}
+
+.hall-da-fama {
+  background-color: rgba(252,161,255,0.7);
+}
+
+.hall-da-fama .btn-primary {
+  color: #18194F;
+  background-color: #fca1ff;
+  border-color: #fca1ff;
+}
+
+.hall-da-fama .btn-primary:hover {
+  color: #fca1ff;
+  background-color: #18194F;
+  border-color: #18194F;
 }
 
 #exibirMembros,
@@ -177,6 +194,9 @@ header {
   .imagem-sobre {
     height: 50px;
   }
+  .hall-da-fama {
+    padding: 1em;
+  }
   .imagem-titulo {
     max-height: 130px;
     margin-top: 1em;
@@ -209,6 +229,9 @@ header {
   .img-adms {
     width: 100px;
   }
+  .hall-da-fama {
+    padding: 1em;
+  }
   .imagem-titulo {
     max-height: 170px;
     margin-top: 1em;
@@ -232,6 +255,9 @@ header {
   }
   .img-adms {
     width: 100px;
+  }
+  .hall-da-fama {
+    padding: 1em;
   }
   .imagem-titulo {
     max-height: 170px;
@@ -262,6 +288,9 @@ header {
   }
   .img-adms {
     width: 150px;
+  }
+  .hall-da-fama {
+    padding: 1em;
   }
   .imagem-titulo {
     max-height: 275px;
